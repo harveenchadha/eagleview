@@ -1,0 +1,5 @@
+label_map:
+  1: person
+  2: car
+num_classes: 2
+var_freeze_expr: (efficientnet|fpn_cells|resample_p6)
