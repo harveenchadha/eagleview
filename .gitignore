@@ -91,3 +91,4 @@ target/
 # Checkpoints
 checkpoints/
 checkpoints*
+data/*
