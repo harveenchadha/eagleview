@@ -1,3 +1,9 @@
+import pandas as pd
+from tqdm import tqdm
+import os
+
+X_test = pd.read_csv('data/test.csv')
+
 X_test_paths = X_test.file_path.unique()
 
 
